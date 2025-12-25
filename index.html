@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NexeraSoft</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="nav-left">
+    <img src="assets/logo.png" alt="AI Solutions Logo" class="logo">
+  </div>
+
+ <div class="nav-right">
+
+    <div class="dropdown">
+      <a href="#">HOME</a>
+    </div>
+
+    <div class="dropdown">
+      <a href="#product-section">SERVICES</a>
+
+    </div>
+    <div class="dropdown">
+      <a href="#industry">SOLUTIONS</a>
+    </div>
+
+    <div class="dropdown">
+      <a href="#partners-section">PARTNERS</a>
+
+    </div>
+
+    <div class="dropdown">
+      <a href="#usecase">ABOUT US</a>
+    </div>
+
+    <div class="dropdown">
+      <a href="#contact-section">HELP</a>
+    </div>
+
+  </div>
+</nav>
+</header>
+<!-- HEADER -->
+<section class="hero" id="hero">
+  <div class="hero-content">
+    <h1>Welcome to <span>NexeraSoft</span> Technologies</h1>
+    <p class="subtitle">
+      Innovating the Future with Smart IT Solutions. leading software solutions company <br>delivering 
+innovative web, mobile, and cloud-based products.
+    </p>
+   <button class="get-brief-btn" onclick="openBrief()">Get the Brief</button>
+   <!-- OVERLAY -->
+<div id="briefOverlay" class="overlay">
+  <div class="brief-box">
+    <span class="close-btn" onclick="closeBrief()">×</span>
+
+    <h2>NexeraSoft Technologies</h2>
+    <p class="tagline">
+      Innovating the future with smart, scalable, and secure IT solutions.
+    </p>
+
+    <div class="brief-content">
+      <h4>Who We Are</h4>
+      <p>
+        NexeraSoft is a technology-driven company delivering intelligent digital
+        solutions across web, mobile, cloud, and enterprise platforms.
+      </p>
+
+      <h4>What We Do</h4>
+      <ul>
+        <li>Custom Software Development</li>
+        <li>Cloud & Infrastructure Solutions</li>
+        <li>AI & Automation Services</li>
+        <li>IT Consulting & Support</li>
+      </ul>
+
+      <h4>Why Choose Us</h4>
+      <p>
+        We combine innovation, expertise, and reliability to help businesses
+        grow faster and smarter in a digital-first world.
+      </p>
+    </div>
+  </div>
+</div>
+  </div>
+</section>
+
+<!-- USE CASE SECTION -->
+<section class="usecase">
+  <h2>WHY NEXERASOFT</h2>
+
+  <div class="usecase-cards">
+    <div class="card purple">
+      <p style="font-size: 42px;">🚀</p>
+      <h3>OUR MISSION</h3>
+      
+      <p>To create intelligent, future-ready technology that empowers businesses to grow faster, work smarter, and innovate without limits.</p>
+    </div>
+
+    <div class="card purple">
+      <p style="font-size: 42px;">👁️</p>
+      <h3>OUR VISION</h3>
+      
+      <p>To become a global leader in advanced digital solutions, shaping a world where technology and human innovation move forward together.</p>
+    </div>
+</section>
+
+<section class="product-section" id="product-section">
+    <h1>Our Services</h1>
+    <p>
+        Nexerasoft provides a comprehensive suite of IT services to empower businesses,<br>
+        including cloud solutions, IT infrastructure, advanced networking, and security.
+    </p>
+
+    <div class="services-container">
+
+        <div class="service-card">
+            <div class="icon">☁️</div>
+            <h3>Cloud Security Solutions</h3>
+            <p>Flexible cloud solutions for scalability, efficiency, and cost optimization.</p>
+            <ul>
+                <li>Cloud Migration</li>
+                <li>Cloud Consulting & Strategy</li>
+                <li>Cloud Security</li>
+            </ul>
+        </div>
+
+        <div class="service-card">
+            <div class="icon">🖥️</div>
+            <h3>IT Infrastructure Solutions</h3>
+            <p>Complete IT infrastructure design, deployment, and optimization.</p>
+            <ul>
+                <li>Network Design & Implementation</li>
+                <li>Server Management</li>
+                <li>Data Center Solutions</li>
+            </ul>
+        </div>
+
+        <div class="service-card">
+            <div class="icon">💻</div>
+            <h3>Device Deployment & MDM</h3>
+            <p>End-to-end device provisioning and Mobile Device Management.</p>
+            <ul>
+                <li>Zero-Touch Deployment</li>
+                <li>Mobile Device Management</li>
+                <li>Application Management</li>
+            </ul>
+        </div>
+
+        <div class="service-card">
+            <div class="icon">🔐</div>
+            <h3>Network Security Solutions</h3>
+            <p>Advanced security services to safeguard enterprise networks.</p>
+            <ul>
+                <li>Firewall Management</li>
+                <li>VPN & Remote Access</li>
+                <li>Endpoint Protection</li>
+            </ul>
+        </div>
+
+        <div class="service-card">
+            <div class="icon">👨‍💼</div>
+            <h3>IT Consultancy & Training</h3>
+            <p>Expert IT consulting and professional training programs.</p>
+            <ul>
+                <li>IT Strategy Consulting</li>
+                <li>Certification Training</li>
+                <li>Corporate Workshops</li>
+            </ul>
+        </div>
+
+        <div class="service-card">
+            <div class="icon">🎁</div>
+            <h3>Gifting Solutions</h3>
+            <p>Corporate gifting solutions for clients and employees.</p>
+            <ul>
+                <li>Corporate Gifting</li>
+                <li>Custom Branding</li>
+                <li>Client Appreciation</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+<!-- USE CASE SECTION 2 -->
+<section class="usecase" id="usecase">
+  <h2>Automation Solutions That Transform Productivity</h2>
+
+  <div class="usecase-cards">
+    <div class="card purple">
+      <h3>CI/CD & DevOps Automation</h3>
+      <p>Speed up development cycles with automated testing, continuous integration, 
+                deployment pipelines, and seamless DevOps orchestration.</p>
+    </div>
+
+    <div class="card purple">
+      <h3>Accelerate Code and Content Creation</h3>
+      <p>Code co-pilots, intelligent document processing, and domain tuning.</p>
+    </div>
+
+    <div class="card purple" id="card purple">
+      <h3>AI-Powered Process Optimization</h3>
+      <p>Leverage AI-driven insights to optimize performance, improve decision-making, 
+                and automate mission-critical operations.</p>
+    </div>
+  </div>
+</section>
+
+<section class="about container" id="about container">
+    <div class="about-text">
+        <h2>OUR BLOG'S</h2>
+        <p>
+            At Nexerasoft, our blog serves as a space where creativity meets technology. Here, we share insights, research, innovation stories, and emerging tech trends that shape the digital world. From artificial intelligence and automation to cloud computing and software engineering—our content is designed to inform, inspire, and empower learners, developers, and tech enthusiasts. Whether you're a curious reader or a professional exploring the future of technology, our blog helps you stay ahead with knowledge that matters.
+        </p>
+    </div>
+
+    <div class="about-img">
+        <img src="assets/logo.png" alt="Nexerasoft Logo">
+    </div>
+</section>
+<br><br>
+
+
+<!-- INDUSTRY SECTION -->
+<section class="industry" id="industry">
+  <h2>Industries We Transform with AI & Intelligent Automation</h2>
+  <p class="desc">Delivering scalable, secure, and data-driven solutions across key industries.</p>
+<br>
+  <div class="industry-cards">
+
+    <div class="industry-card">
+      <div class="icon">🏭</div>
+      <h3>Manufacturing & Industrial Automation</h3>
+            <p>Optimize operations and increase productivity</p>
+            <ul>
+                <li>Predictive maintenance & reduction</li>
+                <li>Smart quality inspection (AI vision)</li>
+                <li>Supply chain optimization</li>
+                <li>Production planning automation</li>
+            </ul>
+    </div>
+
+    <div class="industry-card">
+      <div class="icon">💰</div>
+      <h3>Finance & Banking Automation</h3>
+            <p>Secure, compliant, and intelligent financial systems</p>
+            <ul>
+                <li>Fraud detection & risk analysis</li>
+                <li>Automated compliance & reporting</li>
+                <li>Intelligent customer insights</li>
+                <li>Credit scoring & loan processing</li>
+            </ul>
+    </div>
+
+    <div class="industry-card">
+      <div class="icon">🩺</div>
+      <h3>Healthcare & Life Sciences Automation</h3>
+     <p>Enhancing patient care with AI-powered systems</p>
+            <ul>
+                <li>Medical coding & billing automation</li>
+                <li>Clinical data analysis</li>
+                <li>Precision medicine & diagnostics</li>
+                <li>Patient workflow automation</li>
+            </ul>
+    </div>
+
+     <div class="industry-card">
+      <div class="icon">🛒</div>
+      <h3>Retail & E-Commerce Automation</h3>
+     <p>Deliver personalized customer experiences</p>
+            <ul>
+                <li>Customer behavior analytics</li>
+                <li>AI-driven product recommendations</li>
+                <li>Inventory demand forecasting</li>
+                <li>Pricing & promotion optimization</li>
+            </ul>
+    </div>
+
+    <div class="industry-card">
+      <div class="icon">💻</div>
+      <h3>IT, Software & SaaS Automation</h3>
+      <p>Smarter systems for modern digital businesses</p>
+            <ul>
+                <li>Application performance monitoring</li>
+                <li>Intelligent log & activity analysis</li>
+                <li>Automated IT operations (AIOps)</li>
+                <li>DevOps & cloud optimization</li>
+            </ul>
+    </div>
+
+    <div class="industry-card">
+      <div class="icon">🚚</div>
+      <h3>Logistics & Supply Chain Automation</h3>
+       <p>End-to-end visibility and operational efficiency</p>
+            <ul>
+                <li>Route & delivery optimization</li>
+                <li>Demand and inventory forecasting</li>
+                <li>Procurement classification</li>
+                <li>Real-time shipment tracking</li>
+            </ul>
+    </div>
+
+  </div>
+</section>
+<section class="partners-section" id="partners-section">
+  <h2>Our Technology Partners</h2>
+  <p>
+    We are proud to collaborate with industry-leading brands to deliver top-tier
+    technology solutions and services.
+  </p>
+
+  <div class="partners-grid">
+    <div class="partner-card"><img src="assets/l1.png" alt="Dell Technologies" /></div>
+    <div class="partner-card"><img src="assets/l2.png" alt="Apple Reseller" /></div>
+    <div class="partner-card"><img src="assets/l3.png" alt="Microsoft" /></div>
+    <div class="partner-card"><img src="assets/l4.png" alt="Samsung" /></div>
+    <div class="partner-card"><img src="assets/l5.png" alt="SOPHOS" /></div>
+    <div class="partner-card"><img src="assets/l6.png" alt="Lenovo" /></div>
+    <div class="partner-card"><img src="assets/l7.png" alt="Cisco" /></div>
+    <div class="partner-card"><img src="assets/l8.png" alt="Adobe" /></div>
+    <div class="partner-card"><img src="assets/l9.png" alt="Jamf" /></div>
+    <div class="partner-card"><img src="assets/l10.png" alt="Logitech" /></div>
+    <div class="partner-card"><img src="assets/l11.png" alt="HP" /></div>
+    <div class="partner-card"><img src="assets/l12.png" alt="Acer" /></div>
+    <div class="partner-card"><img src="assets/l13.png" alt="ASUS" /></div>
+    <div class="partner-card"><img src="assets/l14.png" alt="Yubico" /></div>
+    <div class="partner-card"><img src="assets/l15.png" alt="NVIDIA" /></div>
+  </div>
+</section>
+
+<section class="contact-section" id="contact-section">
+  <div class="contact-container">
+    <h2>Get in Touch</h2>
+    <p>We’d love to hear from you! Please fill out the form below, and we’ll get back to you as soon as possible.</p>
+
+    <form class="contact-form">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your first name" required>
+
+      <label for="contact">Contact *</label>
+      <input type="text" id="contact" name="contact" placeholder="WhatsApp number" required>
+
+      <label for="email">Your Email Address *</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+      <label for="message">Your Message *</label>
+      <textarea id="message" name="message" rows="5" placeholder="Type your message here" required></textarea>
+
+      <button onclick="sendEmail()" type="submit">Submit Your Inquiry</button>
+    </form>
+  </div>
+
+  <div class="map-container">
+    <h2>Our Location</h2>
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d257606.30433719244!2d78.24323431498202!3d17.412281017204418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e1!3m2!1sen!2sin!4v1766656043102!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</section>
+
+<!--<section class="testimonials" id="testimonials">
+    <h2>Testimonials</h2>
+    
+    <div class="slider-container">
+        <div class="slide active">
+            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="student">
+            <h3>Alex Johnson</h3>
+            <p>Web Development Student</p>
+            <blockquote>
+                "VN Tech's Front-End Development course exceeded my expectations.  
+                The curriculum was comprehensive and helped me build real-world projects."
+            </blockquote>
+        </div>
+
+        <div class="slide">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="student">
+            <h3>Rahul Verma</h3>
+            <p>UI/UX Student</p>
+            <blockquote>
+                "The mentorship and hands-on projects gave me confidence to design modern user experiences."
+            </blockquote>
+        </div>
+
+        <div class="slide">
+            <img src="https://randomuser.me/api/portraits/women/56.jpg" alt="student">
+            <h3>Pooja Sharma</h3>
+            <p>AI & ML Student</p>
+            <blockquote>
+                "The course structure was amazing. I now understand machine learning models and real-life implementation."
+            </blockquote>
+        </div>
+    </div> -->
+
+    <!-- Dots -->
+    <div class="dots"></div>
+</section>
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/919876543210?text=Hello%20I%20want%20more%20details" target="_blank" class="whatsapp-float">
+    <img src="assets/whatsapp.jpg" alt="WhatsApp" />
+</a>
+
+<footer class="footer">
+  <div class="footer-container">
+    
+    <!-- Company Info -->
+    <div class="footer-about">
+      <img src="assets/logo.png" alt="StromexAI Logo" class="footer-logo">
+      <p>
+        Nexerasoft is your dynamic IT Solutions Provider and Authorized Reseller 
+        for top brands like Apple, Dell, Lenovo, HP, Cisco, Sophos, Fortinet, Juniper, Microsoft and more...
+      </p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-x-twitter"></i></a>
+      </div>
+    </div>
+
+    <!-- Solutions & Services -->
+    <div class="footer-services">
+      <h3>Solutions & Services</h3>
+      <ul>
+        <li>Cloud Security</li>
+        <li>Cloud Solutions</li>
+        <li>IT Infrastructure Solutions</li>
+        <li>Device Deployment & MDM</li>
+        <li>Network Security Solutions</li>
+        <li>IT Consultancy and Training</li>
+        <li>Gifting Solutions</li>
+      </ul>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="footer-contact">
+      <h3>Contact Info</h3>
+      <p>📍 5/576,5/577, Gokul Plots
+Venkataramana Colony, Kukatpally
+Hyderabad, 500085
+Telangana
+India</p>
+
+      <p>📞 +91 8790124826</p>
+      <p>✉️ nexerasofttechnologies@gmail.com</p>
+    </div>
+
+  </div>
+
+  <!-- Bottom Line -->
+  <div class="footer-bottom">
+    <p>© Copyright 2025. Nexerasoft.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
