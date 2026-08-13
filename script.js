@@ -39,7 +39,7 @@ function sendEmail() {
 
     /* ===== OPEN GMAIL ONLY AFTER VALIDATION ===== */
     window.open(
-        `https://mail.google.com/mail/?view=cm&fs=1&to=himabindhupilla@gmail.com&su=New Inquiry&body=${body}`,
+        `https://mail.google.com/mail/?view=cm&fs=1&to=sales@nexerasoft.in&su=New Inquiry&body=${body}`,
         "_blank"
     );
   }
