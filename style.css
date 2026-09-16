@@ -710,7 +710,7 @@ button:hover {
    Also targets .footer-about img so the logo can never blow up to full size */
 .footer-about img,
 .footer-logo {
-  height: 100px;
+  height: 120px;
   width: auto;
   display: block;
   background: #fff;
