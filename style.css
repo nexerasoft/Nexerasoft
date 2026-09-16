@@ -697,7 +697,11 @@ button:hover {
   min-width: 300px;
 }
 
-/* White chip keeps the blue/green logo readable on navy */
+.footer img { max-width: 100%; }
+
+/* White chip keeps the blue/green logo readable on navy.
+   Also targets .footer-about img so the logo can never blow up to full size */
+.footer-about img,
 .footer-logo {
   height: 70px;
   width: auto;
@@ -882,6 +886,7 @@ button:hover {
     gap: 40px;
   }
 
+  .footer-about img,
   .footer-logo { margin: 0 auto 20px; }
 
   .footer-services h3::after,
