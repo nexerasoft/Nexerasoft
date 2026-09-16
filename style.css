@@ -64,10 +64,9 @@ header {
 }
 
 .nav-left .logo {
-  width: 240px;
-  height: 180px;
-  margin-bottom: -30px;
-  margin-top: -10px;
+  height: 66px;
+  width: auto;
+  display: block;
   object-fit: contain;
   cursor: pointer;
   transition: transform 0.3s ease;
@@ -476,8 +475,10 @@ button:hover {
 }
 
 .about img {
-  width: 450px;
+  width: 100%;
+  max-width: 460px;
   margin: 0 auto;
+  display: block;
 }
 
 .about-text h2 {
@@ -550,8 +551,10 @@ button:hover {
 }
 
 .partner-card img {
-  width: 200px;
-  height: 260px;
+  max-width: 170px;
+  max-height: 90px;
+  width: auto;
+  height: auto;
   object-fit: contain;
   transition: transform 0.3s ease;
 }
@@ -694,11 +697,15 @@ button:hover {
   min-width: 300px;
 }
 
+/* White chip keeps the blue/green logo readable on navy */
 .footer-logo {
-  width: 240px;
-  height: 180px;
-  margin-bottom: -20px;
-  margin-top: -50px;
+  height: 70px;
+  width: auto;
+  display: block;
+  background: #fff;
+  padding: 10px 16px;
+  border-radius: 12px;
+  margin-bottom: 20px;
 }
 
 .footer-about p {
@@ -778,11 +785,7 @@ button:hover {
     height: 68px;
   }
 
-  .nav-left .logo {
-    width: 160px;
-    height: auto;
-    margin: 0;
-  }
+  .nav-left .logo { height: 44px; }
 
   .nav-right { display: none; }
 
@@ -879,7 +882,7 @@ button:hover {
     gap: 40px;
   }
 
-  .footer-logo { margin: auto; }
+  .footer-logo { margin: 0 auto 20px; }
 
   .footer-services h3::after,
   .footer-contact h3::after {
